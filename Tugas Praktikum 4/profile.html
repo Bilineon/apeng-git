@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Halaman Profil Asmaratungga Avenda</title>
+</head>
+<body>
+
+    <header>
+        <h1>Selamat Datang di Profil Saya</h1>
+        <img src="Images/apen.jpg" alt="foto saya" width="150px">
+        <nav>
+            <ul>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#Skill">Skill</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            <p>Nama: Asmaratungga Avenda Darma Putra</p>
+            <p>Umur: 20 tahun</p>
+            <p>Nim: 24102006</p>
+            <p>Tempat Lahir: Gresik, 14 Desember 2005</p>
+            <p>Alamat: Ds. Kertorejo, Kec. Ngoro, Kab. Jombang</p>
+            <p>Hobi: Bermain Gitar dan Game</p>
+        </section>
+
+        <hr>
+
+        <section id="Skill">
+            <h2>Skill</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Figma</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="kontak">
+            <h2>Formulir Pendaftaran</h2>
+            <p>Silahkan isi data Dibawah ini.</p>
+            
+            <form action="#" method="post">
+                <div>
+                    <label for="nama">Nama Lengkap:</label><br>
+                    <input type="text" id="nama" name="nama">
+                </div>
+                <br>
+
+                <div>
+                    <label for="email">Alamat Email:</label><br>
+                    <input type="email" id="email" name="email">
+                </div>
+                <br>
+
+                <div>
+                    <label for="hp">Nomor HP:</label><br>
+                    <input type="tel" id="hp" name="hp" pattern="[0-9]">
+                </div>
+                <br>
+
+                <div>
+                    <label for="kategori">Pilihan Kategori:</label><br>
+                    <select id="kategori" name="kategori" required>
+                        <option value="">-- Pilih Kategori --</option>
+                        <option value="web">Web Development</option>
+                        <option value="desain">UI/UX Design</option>
+                        <option value="lainnya">Lainnya</option>
+                    </select>
+                </div>
+                <br>
+
+                <button type="submit">Kirim Pendaftaran</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Belajar HTML semantik.</p>
+    </footer>
+
+</body>
+</html>
