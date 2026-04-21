@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Profil Asmaratungga Avenda</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="nav-container">
+                <h1>Asmaratungga Avenda Darma Putra</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#tentang">Tentang</a></li>
+                        <li><a href="#skill">Skill</a></li>
+                        <li><a href="#proyek">Proyek</a></li>
+                        <li><a href="#kontak">Kontak</a></li>
+                    </ul>
+                </nav> </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="profile-header">
+            <img src="assets/images/apen.jpg" alt="foto apen" class="foto">
+        </div>
+
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            <p>
+                Saya adalah seorang developer yang sedang belajar HTML semantik di semester 4. Saya memiliki minat dalam pengembangan web dan desain UI/UX. Saya senang belajar hal-hal baru dan terus meningkatkan keterampilan saya dalam dunia teknologi. Selain itu, saya juga memiliki pengalaman dalam menggunakan berbagai alat desain seperti Figma untuk membuat prototipe dan desain antarmuka yang menarik. Saya berharap dapat terus berkembang sebagai seorang developer dan berkontribusi pada proyek-proyek yang menarik di masa depan.
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="skill">
+            <h2>Skill</h2>
+            <article>
+                <h3>UI/UX Design</h3>
+                <ul>
+                    <li>Figma</li>
+                    <li>Adobe Illustrator</li>
+                    <li>User Flow</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Frontend Development</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Tools & Others</h3>
+                <ul>
+                    <li>Visual Studio Code</li>
+                    <li>Git & GitHub</li>
+                </ul>
+            </article>
+        </section>
+
+        <hr>
+
+        <section id="proyek">
+            <h2>Proyek</h2>
+            <article>
+                <h3>SeeWe</h3>
+                <p>Aplikasi Media Sosial Berbasis Virtual Reality</p>
+            </article>
+
+            <article>
+                <h3>SpoorGo</h3>
+                <p>Aplikasi Pemesanan Tiket Kereta Api Berbasis Web </p>
+            </article>
+
+            <article>
+                <h3>Gbtzz</h3>
+                <p>Website Profile Anggota Gbtzz</p>
+            </article>
+        </section>
+
+        <hr>
+
+        <section id="kontak">
+            <h2>Form Pendaftaran</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="name">Nama:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Nama Lengkap" required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="contoh@mail.com" required>
+                </p>
+
+                <p>
+                    <label for="phone">Nomor HP:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="08123456789" required>
+                </p>
+
+                <p>
+                    <label for="kategori">Kategori:</label><br>
+                    <select name="kategori" id="kategori">
+                        <option value="pelajar">Pelajar</option>
+                        <option value="mahasiswa">Mahasiswa</option>
+                        <option value="umum">Umum</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="pesan">Pesan:</label><br>
+                    <textarea id="pesan" name="pesan" rows="4" cols="30" placeholder="Tulis pesanmu di sini..." required></textarea>
+                </p>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Asmaratungga Avenda Darma Putra. All rights reserved.</p>
+    </footer>
+    <script src="assets/DOM/dom.js"></script>
+</body>
+</html>
